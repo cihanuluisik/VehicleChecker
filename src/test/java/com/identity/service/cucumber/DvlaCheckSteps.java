@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class DvlaCheckSteps {
 
     private WebDriver driver;
-    private  SelinimumChromeDriverService selinimumChromeDriverService = new SelinimumChromeDriverService("C:/Users/Cihan/Downloads/chromedriver.exe");
+    private  SelinimumChromeDriverService selinimumChromeDriverService = new SelinimumChromeDriverService("src/test/resources/driver/chromedriver.exe");
 
     @Before
     public void before() throws IOException {

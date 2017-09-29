@@ -6,7 +6,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.IOException;
-import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class SelinimumChromeDriverService {

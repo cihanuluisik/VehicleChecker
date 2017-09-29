@@ -1,14 +1,14 @@
 package com.identity.service;
 
 import org.apache.log4j.Logger;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.Objects;
 import java.util.Optional;
-import static java.util.Optional.empty;
-import static java.util.Optional.of;
-import static java.util.Optional.ofNullable;
+
+import static java.util.Optional.*;
 
 public class FileSummaryImpl implements FileSummary {
 

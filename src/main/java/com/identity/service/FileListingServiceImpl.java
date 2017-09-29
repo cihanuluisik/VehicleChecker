@@ -17,7 +17,7 @@ public class FileListingServiceImpl implements FileListingService {
      * @param inputFolder directory to scan
      * @param extensions  file extensions to filter in
      */
-    public FileListingServiceImpl(String inputFolder, List<String> extensions) {
+    private FileListingServiceImpl(String inputFolder, List<String> extensions) {
         this.inputFolder = inputFolder;
         this.extensions = extensions;
         runTimePath = System.getProperty("user.dir");
